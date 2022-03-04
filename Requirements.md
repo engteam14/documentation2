@@ -1,4 +1,4 @@
-## 2. Requirements
+## Requirements
 
 
 # Elicitation of requirements

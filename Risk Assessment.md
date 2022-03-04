@@ -1,4 +1,4 @@
-## 5. Risk assessment and mitigation
+## Risk assessment and mitigation
 
 The risks to the project are presented in the table below, with the following information about each one: 
 

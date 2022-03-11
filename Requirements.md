@@ -57,18 +57,6 @@
    </td>
   </tr>
   <tr>
-   <td>
-    Game setting
-   </td>
-   <td>
-    UR_PLATFORM
-   </td>
-   <td>
-    The user shall use a standard laptop PC to play the game
-   </td>
-   <td>
-    Shall
-   </td>
   </tr>
   <tr>
    <td>
@@ -211,18 +199,6 @@
    </td>
   </tr>
   <tr>
-   <td>
-    Encounters
-   </td>
-   <td>
-    UR_FRIENDLY_BUILDING_INTERACT
-   </td>
-   <td>
-    The user shall interact with friendly buildings
-   </td>
-   <td>
-    Shall
-   </td>
   </tr>
   <tr>
    <td>
@@ -260,25 +236,13 @@
     UR_EARN_MONEY
    </td>
    <td>
-    The user shall earn money
+    The user shall earn plunder
    </td>
    <td>
     Shall
    </td>
   </tr>
   <tr>
-   <td>
-    Earnables
-   </td>
-   <td>
-    UR_EARN_POINTS
-   </td>
-   <td>
-    The user shall earn points
-   </td>
-   <td>
-    Shall
-   </td>
   </tr>
   <tr>
    <td>
@@ -418,20 +382,6 @@
    </td>
   </tr>
   <tr>
-   <td>
-    FR_MENU_KB_INPUT
-   </td>
-   <td>
-    The game shall accept keyboard input for menu navigation
-   </td>
-   <td>
-    UR_PLATFORM
-   </td>
-   <td>
-   </td>
-   <td>
-    Shall
-   </td>
   </tr>
   <tr>
    <td>
@@ -550,18 +500,6 @@
   </tr>
   <tr>
    <td>
-    FR_COLLEGE_ENTITY_TRACKING
-   </td>
-   <td>
-    The game shall keep track of ships and buildings for a minimum of 3 distinct factions
-   </td>
-   <td>
-    UR_COMPETING_COLLEGES
-   </td>
-   <td>
-   </td>
-   <td>
-    Shall
    </td>
   </tr>
   <tr>
@@ -1058,20 +996,6 @@
    </td>
   </tr>
   <tr>
-   <td>
-    NFR_LARGE_ASSETS
-   </td>
-   <td>
-    The game assets shall be large enough to observe from several metre's distance away on a standard laptop PC screen
-   </td>
-   <td>
-    UR_GAME_OBSERVABILITY
-   </td>
-   <td>
-    Observer standing 2m away should be able to answer questions about gameplay state
-   </td>
-   <td>
-   </td>
   </tr>
 </table>
 

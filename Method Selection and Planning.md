@@ -33,10 +33,7 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 
-* Draw.io was used in order to create the abstract architecture diagram, as this relatively easy to use tool seemed more appropriate for this simpler diagram
-* PlantUML in addition to adobe photoshop was used in order to create the concrete architecture diagram;
-    * PlantUML was used at first in order to create representations of classes, categories of classes and the relationships within each category
-    * Adobe photoshop was later used in order to add the inter-category relationships
+* We used PlantUML in order to create the abstract and concrete architecture diagrams as the team had prior experience in using this tool.
 
 **Implementation**
 

@@ -19,9 +19,9 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 
-* For our team meetings we used Zoom. This was an intuitive choice as it is a platform that we all have lots of experience with and therefore avoided an unnecessary learning curve.
+* For our team meetings we either met in-person or organised a discord call. This was an intuitive choice as it is a platform that we all have lots of experience with and therefore avoided an unnecessary learning curve.
 * We created a Discord server for general communications throughout the project. This was crucial in allowing team members to ask clarifying questions without having to wait for the next meeting, avoiding any unnecessary obstructions to task progression.
-* We created a Trello board in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a visual representation of tasks that were completed, in progress and yet to begin.
+* We created GitHub Issues in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a visual representation of tasks that were completed, in progress and yet to begin.
 
 **Website**
 

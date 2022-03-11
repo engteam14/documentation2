@@ -19,24 +19,21 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 
-* For our team meetings we used Zoom. This was an intuitive choice as it is a platform that we all have lots of experience with and therefore avoided an unnecessary learning curve.
+* For our team meetings we either organised a discord call or met in-person. Using discord was an intuitive choice as it is a platform that we all have lots of experience with and therefore avoided an unnecessary learning curve.
 * We created a Discord server for general communications throughout the project. This was crucial in allowing team members to ask clarifying questions without having to wait for the next meeting, avoiding any unnecessary obstructions to task progression.
-* We created a Trello board in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a visual representation of tasks that were completed, in progress and yet to begin.
+* We created GitHub Issues in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a visual representation of tasks that were completed, in progress and yet to begin.
 
 **Website**
 
 
 
-* We used GitHub pages to develop our website. This meant that our resulting site would be simple to replicate for any team which chose to take over our game for assessment 2.
+* We used GitHub pages to develop our website considering the teams previous experience with using the tool. 
 
 **Architecture**
 
 
 
-* Draw.io was used in order to create the abstract architecture diagram, as this relatively easy to use tool seemed more appropriate for this simpler diagram
-* PlantUML in addition to adobe photoshop was used in order to create the concrete architecture diagram;
-    * PlantUML was used at first in order to create representations of classes, categories of classes and the relationships within each category
-    * Adobe photoshop was later used in order to add the inter-category relationships
+* We used PlantUML in order to create the abstract and concrete architecture diagrams as the team had prior experience in using this tool.
 
 **Implementation**
 

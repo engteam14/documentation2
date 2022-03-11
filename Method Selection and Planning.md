@@ -1,21 +1,16 @@
-
-
-
-## Part A 
-
-
 ### Software Engineering Methods
 
-Our chosen software engineering method was plan-based rather than agile, with a project “road-map” being created early in the development process as illustrated below. This seemed most appropriate as we anticipated no requirement adjustments to manage during the first assessment. 
+
+Our chosen software engineering method was Agile, with a project “road-map” being created early in the development process as illustrated below. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
 
 We organised frequent team meetings, on average twice a week. These meetings served two key purposes:
 
 
 
-* Providing a platform to discuss and agree upon key development decisions, most often regarding game design
-* Allowing each  team member to communicate their progress on their assigned tasks, and for new tasks to be assigned when necessary
+* Providing a platform to discuss and agree upon key development decisions, such as game design and documentation. 
+* Allowing each  team member to communicate their progress on their assigned tasks, and for new tasks to be assigned when necessary.
 
-When creating the initial “road-map”, we chose not to pre-emptively assign any tasks to particular people, instead we assigned tasks throughout the project with a view to utilising each member's skill set whilst keeping the workload even. Assigning tasks throughout the project was particularly appropriate for a team without large amounts of software development experience as our estimations for the time and effort needed for each task weren’t perfect, therefore this system avoided any particular team member being assigned tasks at the start of the project which transpired to be an unfair portion of the workload. The frequent team meetings in which we discussed task progression, however, allowed us to keep each  other accountable for our productivity.
+After creating an initial “road-map”, we then broke down the tasks according to the marks and assigned each member ~15 marks worth of tasks based on their skillset and our experience from the first assessment, so that every member had an equal amount of contribution towards the project. The frequent team meetings alongside the bi-weekly review meetings, in which we discussed task progression, allowed us to keep each other accountable for our productivity and ensured that we stay on track.
 
 
 ### Tools Used

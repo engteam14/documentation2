@@ -27,7 +27,7 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 
-* We used GitHub pages to develop our website. This meant that our resulting site would be simple to replicate for any team which chose to take over our game for assessment 2.
+* We used GitHub pages to develop our website considering the teams previous experience with using the tool. 
 
 **Architecture**
 

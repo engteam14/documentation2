@@ -1,12 +1,7 @@
-
-
-
-## Part A 
-
-
 ### Software Engineering Methods
 
-Our chosen software engineering method was plan-based rather than agile, with a project “road-map” being created early in the development process as illustrated below. This seemed most appropriate as we anticipated no requirement adjustments to manage during the first assessment. 
+
+Our chosen software engineering method was Agile, with a project “road-map” being created early in the development process as illustrated below. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
 
 We organised frequent team meetings, on average twice a week. These meetings served two key purposes:
 

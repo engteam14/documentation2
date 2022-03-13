@@ -1,0 +1,24 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy Markdown to Website
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.SITE_DEPLOY_KEY }}
+          external_repository: engteam14/website2
+          publish_branch: main
+          exclude_assets: '.github,docs,README.md'
+          destination_dir: markdowns

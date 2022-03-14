@@ -1,7 +1,10 @@
+## Part A
+
+
 ### Software Engineering Methods
 
 
-Our chosen software engineering method was Agile, with a project “road-map” being created early in the development process as illustrated below. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
+Our chosen Software Engineering method was Agile, where we used the Scrum framework. The team was divided into two smaller teams, namely, Implementation and Documentation Team. We then came up with a project “road-map” early in the development process as illustrated below. As we deicded to the Scrum framework, our road-map shows a sprint of 2-weeks for each task followed by a review stage where we would discuss our progress and work on solutions to any problems the team is having. Once we had an idea of the main blocks of work that needed to be done, the team discussed all the smaller tasks that needed to be completed in order to complete a main block of work and we then used GitHub Issues where each member from the two teams were assigned tasks that need to be done. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
 
 We organised frequent team meetings, on average twice a week. These meetings served two key purposes:
 
@@ -10,7 +13,7 @@ We organised frequent team meetings, on average twice a week. These meetings ser
 * Providing a platform to discuss and agree upon key development decisions, such as game design and documentation. 
 * Allowing each  team member to communicate their progress on their assigned tasks, and for new tasks to be assigned when necessary.
 
-After creating an initial “road-map”, we then broke down the tasks according to the marks and assigned each member ~15 marks worth of tasks based on their skillset and our experience from the first assessment, so that every member had an equal amount of contribution towards the project. The frequent team meetings alongside the bi-weekly review meetings, in which we discussed task progression, allowed us to keep each other accountable for our productivity and ensured that we stay on track.
+As discussed earlier, we broke down the tasks into sub-tasks according to the marks and assigned each member ~15 marks worth of tasks based on their skillset and our experience from the first assessment, so that every member had an equal amount of contribution towards the project. The frequent team meetings alongside the bi-weekly review meetings, in which we discussed task progression, allowed us to keep each other accountable for our productivity and ensured that we stay on track.
 
 
 ### Tools Used
@@ -20,8 +23,8 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 * For our team meetings we either organised a discord call or met in-person. Using discord was an intuitive choice as it is a platform that we all have lots of experience with and therefore avoided an unnecessary learning curve.
-* We created a Discord server for general communications throughout the project. This was crucial in allowing team members to ask clarifying questions without having to wait for the next meeting, avoiding any unnecessary obstructions to task progression.
-* We created GitHub Issues in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a visual representation of tasks that were completed, in progress and yet to begin.
+* We created a Discord server for general communications throughout the project. This was crucial in allowing team members to ask clarifying questions without having to wait for the next meeting, avoiding any unnecessary obstructions to task progression. Moreover, we created a "To-do list" channel in our server where after every meeting notes were posted regarding what was discussed in the meeting and what needed to be done.
+* We used GitHub Issues in order to organise and keep track of our tasks throughout the project. Alongside the team meetings, this was crucial in keeping us organised by providing a numerical representation of tasks that were completed (closed issues) and tasks that were in progress or yet to begin (open issues).
 
 **Website**
 
@@ -47,7 +50,7 @@ After creating an initial “road-map”, we then broke down the tasks according
 
 
 
-* We considered using other IDEs such as Eclipse for software implementation, however as mentioned previously we chose to use IntelliJ due to team members having previous experience with this IDE
+* We considered using other IDEs such as Eclipse for software implementation, however as mentioned previously we chose to use IntelliJ due to team members having previous experience with this IDE.
 * We also considered game engines other than libGDX in order to enable software development:
     * We considered using Unity, however we were discouraged from this choice by factors such as Unity’s reputation for largely outdated/incomplete documentation and the fact that many useful features are behind a paywall.
     * We also considered using the Unreal game engine, but quickly decided against this as it seemed inappropriate for developing what is a relatively small game and would cause the resulting game to be unnecessarily bloated.
@@ -69,20 +72,18 @@ During our initial team meeting we discussed assigning the following team roles.
 * Librarian: Keeping track of documents and other resources, particularly ensuring that in-progress documents were regularly uploaded to the team shared google drive
 * Report Editor: Overseeing document production, in particular ensuring that documentation progress was largely in line with the initial working plan
 
-During this discussion we decided to combine the roles of librarian and report editor as they seemed like largely interdependent tasks. We then discussed who would be most appropriate for each role and agreed on the following assignments:
+During this discussion we decided to combine all the roles as they seemed like largely interdependent tasks, hence forming the main role of Team Leader. We then added two addition roles, Implementation leader and Documentation leader, and discussed who would be most appropriate for each role and agreed on the following assignments:
+  * Team Leader – Katie
+  * Implementation Leader – Jacob 
+  * Documentation Leader – Saud
 
-
-
-* Meeting Chair – Stan 
-* Secretary – Jarred 
-* Librarian/Report Editor – Alex 
 
 Assigning these roles enabled a smooth and efficient team working process and helped to keep track of team progress.
 
 
 ### Task Assignments
 
-Task assignment took place throughout the assessment process as detailed in part a of this document. When the time came to assign new tasks, we tried to keep these assignments in line with each person’s particular skill set in order to ensure efficiency as such throughout the project members mainly focussed on the particular aspects which they felt most comfortable with, usually due to previous experience, for example Joe took responsibility for website development and Alex produced the bulk of our game’s code.
+Task assignment took place once we had gathered all the requirements for the game as mentioned above. We went through all the deliverables required in Assessment 2 and discussed each major task that had to be done. We then calculated how much each task was worth and assigned each member ~15 marks worth of tasks using GitHub Issues based on their skill set and the groups experience from Assessment 1, in order to ensure efficiency and timely completion of tasks. We also made sure that each member’s work was reviewed by at least one other team member so that appropriate feedback could be given before the approval of a merge request and the member working on it could make any necessary changes. We then added sub-tasks to these major tasks and such sub-tasks were added till our last review session in order to ensure that each part of the deliverable was completed, and nothing was forgotten.
 
 
 

@@ -4,7 +4,7 @@
 ### Software Engineering Methods
 
 
-Our chosen Software Engineering method was Agile, where we used the Scrum framework. The team was divided into two smaller teams, namely, Implementation and Documentation Team. We then came up with a project “road-map” early in the development process as illustrated below. As we deicded to the Scrum framework, our road-map shows a sprint of 2-weeks for each task followed by a review stage where we would discuss our progress and work on solutions to any problems the team is having. Once we had an idea of the main blocks of work that needed to be done, the team discussed all the smaller tasks that needed to be completed in order to complete a main block of work and we then used GitHub Issues where each member from the two teams were assigned tasks that need to be done. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
+Our chosen Software Engineering method was Agile, where we used the Scrum framework. The team was divided into two smaller teams, namely, Implementation and Documentation Team. We then came up with a project “road-map” early in the development process as illustrated in Fig.1. As we deicded to the Scrum framework, our road-map shows a sprint of 2-weeks for each task followed by a review stage where we would discuss our progress and work on solutions to any problems the team is having. Once we had an idea of the main blocks of work that needed to be done, the team discussed all the smaller tasks that needed to be completed in order to complete a main block of work and we then used GitHub Issues where each member from the two teams were assigned tasks that need to be done. Having all the requirements for the final game from the customer, our roadmap helped us efficiently plan the execution and completion of this project, with the aim of delivering a high-quality game and all its supporting documents on time.  
 
 We organised frequent team meetings, on average twice a week. These meetings served two key purposes:
 
@@ -406,10 +406,8 @@ Our first step in planning this assessment was to create a task breakdown table,
 
 We then used this table in order to create an initial Gantt chart to show a theoretical schedule for when each task would be completed  for assessment 1(as shown below;)
 
+![Fig.1](https://user-images.githubusercontent.com/94641110/158235276-dc7d414d-a650-4fc6-addb-92a8a9f74013.png)
 
-
-
-![alt_text](images/image1.png "image_tooltip")
 
 
 At each team meeting our assigned secretary, Jarred, would create meeting notes which he would then upload to our shared google drive. At the end of each week, we then used these notes in order to create a ‘snapshot’ of our team progress (shown on website snapshot page).

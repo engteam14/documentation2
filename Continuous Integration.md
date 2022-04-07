@@ -28,7 +28,7 @@ This means that all of the javaDocs in our code are viewable on the website to a
 
 If a pull request or push to the main branch in the documentation repository is made, `deploy` is ran.
 ##### `deploy` workflow
-    - Deploys the markdown files to the website2 repository. This allows us to keep the websites documentation files up to date.
+Deploys the markdown files to the website2 repository. This allows us to keep the websites documentation files up to date.
 ## website2 repository
 All continuous integration in this repository occurs on a push to the main branch.
 `pages-build-deployment` will always be ran, however `convert` will only be ran if the push includes markdown files in the `/markdowns` directory.

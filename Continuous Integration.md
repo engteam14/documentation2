@@ -18,7 +18,7 @@ This ensures that if there are any errors in testing, it still generates a test 
 2. Uses the dist command to **generate a jar** file
 3.  **Deploys** the jar file to the website2 repository
 This allows us to automatically place the latest jar onto the website.
-#####`documentation`
+##### `documentation`
   1. **Builds** the project using Gradle. 
   2. Uses the javadoc command to **generate** documentation as html.
   3. Then **deploys** the documentation to the website2 repository.
@@ -27,16 +27,16 @@ This means that all of the javaDocs in our code are viewable on the website to a
 ## documentation2 repository
 
 If a pull request or push to the main branch in the documentation repository is made, `deploy` is ran.
-#####`deploy` workflow
+##### `deploy` workflow
     - Deploys the markdown files to the website2 repository. This allows us to keep the websites documentation files up to date.
 ## website2 repository
 All continuous integration in this repository occurs on a push to the main branch.
 `pages-build-deployment` will always be ran, however `convert` will only be ran if the push includes markdown files in the `/markdowns` directory.
-#####`convert` workflow 
+##### `convert` workflow 
   1.  Converts all of the files in the `/markdowns` directory into pdf files.
   2.  Commits the pdf files to the `/pdfs` directory in the repository.
 This allows our documentation to be presented in both markdown and pdf format.
-#####`pages-build-deployment` workflow
+##### `pages-build-deployment` workflow
   1.  Builds the jekyll website.
   2.  Deploys the built site to GitHub pages.
 This allows our website to constantly be up to date with all the latest files.

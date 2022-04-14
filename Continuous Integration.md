@@ -1,5 +1,6 @@
 
 # Continuous Integration 
+In each of our repositories we added a continuous integration workflow to ensure that the risk of things like merging issues causing delays (R19 in risk assesment) and additional work from manually creating pdfs and uploading to the website meaning the team has to do more work than predicted (R14 risk in risk assesment)
 
 ## yorkpirates2 (game) repository 
 Continuous integration occurs in two ways in our game repository 

@@ -1,7 +1,7 @@
 ## Requirements
 
 
-# Elicitation of requirements
+## A) Elicitation of requirements
 
 
 
@@ -15,7 +15,7 @@
 6. Resulting functional and non-functional requirements were closely evaluated for possible risks to their implementation; these were detailed within the risk register.
 
 
-# Research into requirement specification and presentation
+## Research into requirement specification and presentation
 
 
 
@@ -37,7 +37,7 @@
 
     <sup>1</sup> _Systems and software engineering -- Life cycle processes -- Requirements engineering_, ISO/IEC/IEEE 29148:2018(E), 2018.
 
-
+## B) Requirements Tables
  | ID | Description | Priority |
 | --- | --- | --- |
 | UR_PLATFORM | The user shall use a standard laptop PC to play the game | High |

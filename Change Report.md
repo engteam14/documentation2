@@ -26,7 +26,7 @@ Change report:
 
 **<span style="text-decoration:underline;">8948b74: Removed Unnecessary requirements</span>**
 
-We felt that some of the requirements the team had previously implemented did not appear in any brief, weren’t asked for by the customer or were just deemed to be redundant. For example the requirements ‘FR_BOSS_UNLOCK_TRACKING’ and ‘FR_BOSS_SPAWN’ involved the use of a boss that was not mentioned in the brief nor customer interviews and therefore had no justification to appear in requirements.
+We felt that some of the requirements the team had previously implemented did not appear in any brief, weren’t asked for by the customer or were just deemed to be redundant. For example the requirements ‘FR_BOSS_UNLOCK_TRACKING’ and ‘FR_BOSS_SPAWN’ involved the use of a boss that was not mentioned in the brief nor customer interviews and therefore had no justification to appear in requirements. This will change R14 as the estimation of the scope of the project would be significantly increased if these requirements were left in.
 
 **<span style="text-decoration:underline;">ef9f295: Added requirements relevant to the second stage of the assessment</span>**
 

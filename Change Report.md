@@ -20,7 +20,7 @@ Conversion notes:
 ----->
 
 
-Change report:
+# Change report:
 
 # Requirements
 
@@ -49,3 +49,46 @@ We noticed some inconsistencies in wording between the documentation and impleme
 **<span style="text-decoration:underline;">9917596: Cleared up points/XP confusion</span>**
 
 A further inconsistency we noted was the lack of clarity between ‘points’ and ‘XP’ which was pointed out in the feedback as an issue. The team felt it was best to merge the two so we ended up merging the two and using ‘XP’ for both.
+
+# Method Selection and PLanning
+
+**<span style="text-decoration:underline;">05e5339: Changed Software Engineering method</span>**
+
+We decided to change the engineering method from Plan-based to Agile as we divided the team into two parts, Implementation and Documentation, so that we could work on all parts of the assessments simultaneously. We also discussed about using the Scrum framework instead of Plan based and had sprints that were 1 weeklong.
+
+**<span style="text-decoration:underline;">bbe4ad3: Added another key point of discussion for weekly meetings</span>**
+
+Instead of just discussing about game design as the purpose of our weekly meetings, we changed it and added “documentation” as well, as it was necessary to be up to date with both aspects of the assessment as they go hand-in-hand with one another.
+
+**<span style="text-decoration:underline;">e9c1a4e: Changed Communication and Collaboration Tools</span>**
+
+We decided to change the Team Meeting tool from Zoom to Discord and in-person meetings as in-person meetings allowed us to separate into smaller teams and work together while allowing us to keep real-time progress of the project and Discord calls were more preferred as compared to zoom as it avoided the hassle of having a Meeting ID and Password to join a meeting and the screensharing capability provided on discord was much better than that provided by zoom, according to the groups point of view.
+
+In addition to having a discord server for general project discussions, we decided to create a “To-Do List” channel, where a team member would post notes regarding what was discussed in the meeting and what needed to be done by the next scheduled meeting.
+
+After some discussions, we changed our task progression tool from Trello to GitHub Issues as this was something new that we thought of trying and also the fact that using GitHub issues, we could keep track of all the commits and why something was changed from the previous project, which would later on help us when writing our change report.
+
+**<span style="text-decoration:underline;">299e9c9: Changed tools used to create Architectures</span>**
+
+Instead of using draw.io for Abstract architecture and plantuml for Concrete architecture, we used plantuml for both as well as for our Gantt Charts, as we had used this tool for the first assessment and found it relatively simple to use. 
+
+**<span style="text-decoration:underline;">25d9e44: Added an explanation for our teams’ approach towards Quality Control</span>**
+
+We added a paragraph explaining how we implemented a Quality Control Process to ensure that our work was of high-quality, and this also helped with mitigating the risk of a team member being unable to complete their tasks due to any justifiable reason, as others would know where to pick-up from.
+
+**<span style="text-decoration:underline;">28638b3: Added a Testing tool</span>**
+
+We added a small paragraph where we discussed the testing tool we used (gdx-testing) and why we used it.
+
+**<span style="text-decoration:underline;">44fbf5d: Updated Team Management and Changed how Tasks were assigned</span>**
+
+We combined all the roles discussed by the previous team into one role (Team leader) as they seemed largely interdependent and we added two additional roles, Implementation leader and Documentation leader, where 2 additional members were assigned to each role after a group discussion.
+
+We also changed how tasks were assigned (assigning tasks as the project progressed) to how our team seemed fit, which was by calculating the marks of each section required and evenly distributing tasks to team members based on the calculated marks, ensuring everyone had more/less a similar amount of contribution towards the project and nothing will be left/forgotten till the last minute.
+
+**<span style="text-decoration:underline;">ff9ba36: Changed all of Part C (Systematic Project Plan)</span>**
+
+Instead of continuing with the previous teams’ approach of having a task breakdown table followed by an initial Gantt chart showing a theoretical schedule for when each task should be completed, we decided to design an initial roadmap of all the major tasks that needed to be done (as a Gantt chart) which also showed a theoretical schedule of when each of these tasks needed to be completed. We then justified how we went about creating this chart and why we scheduled the tasks the way we did. We then decided to update this initial Gantt chart every week based on task progression/completion in that week, depicting the evolution of our plan throughout the project. We then added the final Gantt chart to the document so that it would be easy to compare the changes made with regards to the initial plan and all the intermediate Gantt charts can be found on our website.
+
+Furthermore, instead of creating snapshots by condensing the roadmap to keep track of our progress and using a colour-coding scheme to highlight tasks that were due, we decided to use a colour-coding scheme to assign tasks to individuals/teams in the form of a Gantt chart.
+

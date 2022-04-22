@@ -22,6 +22,15 @@ Conversion notes:
 
 # Change report:
 
+# a) Formal Apporach to Change Management
+
+## **<span style="text-decoration:underline;">Documentation</span>**
+
+### **<span style="text-decoration:underline;">Github</span>**
+
+Firstly for each section of documentation (i.e. Risk Assessment, Requirements etc.) we created an independent branch. We did this to allow each change to the core documentation to be approved by one or more other member of the team. This was done for a number of reasons, firstly, it allows every change to be reviewed before being commited to the 'main' versions of the core documentation. Furthermore, this allowed us to create a template for pull requests which allowed the person making the changes to specify which issue number is resolved, a description of the changes made and the reasons for making those changes. The ability to specify the issue number relevant to made changes proved to be extremely useful as it meant not only were the specified issues automatically resolved but it also allowed us to easily keep track of ongoing issues. 
+
+For implementation, we used different comments such as 'start change for assessment 2', 'end of change for assessment 2' and in anything new 'new for assessment 2'
 # Requirements
 
 **<span style="text-decoration:underline;">8948b74: Removed Unnecessary requirements</span>**

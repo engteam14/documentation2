@@ -1,8 +1,14 @@
 ## Risk assessment and mitigation
 
+This section will outline the risks that we have established will be possible to occur in this project along with some more detail about them. 
+
+To create thes risks we will follow the process that Ian Somemrville details in his book *Software Engineering* [1]. Sommerville sums up the process of creating a risk assesment in 4 steps. 
+  - The first step is to discuss the risks, listing them and tabulating them. To do this he suggests going through easch stage of the project you have planned and and identifying possible risks. 
+  - The second stage is to analyse the risks you have identified. This involves creating a measurement of how likely the risk is to happen. In this project we chose to use the characters 'H' 'M' and 'L' to stand for High risk, Medium Risk and Low risk. This seems descriptive enough given the small scale of the project and the fact that the product has no safety issues in terms of damage to people or property if something goes wrong. 
+  - Sommerville describes the next step as the mitigation step, where we created a plan and decided on how these risks will be prevented or alternatively how we will act if they do arrise. 
+  - Step four is to monitor the risks and creating revisions to the risk assesment if the need arises. To do this we have assigned owners to each risk to ensure someone is monitoring it as we do not have a specifically assigned risk assessor.
+  
 The risks to the project are presented in the table below, with the following information about each one: 
-
-
 
 * An ID- to identify individual risks
 * Category type- helps to read the table quickly and find the specific risks
@@ -13,7 +19,7 @@ The risks to the project are presented in the table below, with the following in
 * Mitigation - details the steps that need to be, or are being taken to prevent the risk from happening. 
 * Owner- shows who is responsible for either solving the problem or arranging for it to be solved
 
-There is significant detail about the risks to the programming and game itself because each item can affect the overall game, and are distinct issues. The likelihood and severity of the risks are also included because this tells us which risk to prioritise in mitigating, and each item has an ‘owner’- without one, the responsibility can be unclear, causing the issue to not be solved.
+There is significant detail about the risks to the programming and game itself because each item can affect the overall game, and are distinct issues. The likelihood and severity of the risks are also included because this tells us which risk to prioritise in mitigating, and each item has an ‘owner’- without one, the responsibility can be unclear, causing the issue to not be solved. If a risk is owned by someone this means that it is their responsibility to log any occurences of this and decide if the mitigiation or likelihood needs changing. This may be done in the form of a message to the person editing this document or editing the document directly. These updates will be date stamped. 
 
 | ID | Type | Description | Consequences | Monitoring | Likelihood | Severity | Mitigation | Owner |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -28,6 +34,17 @@ There is significant detail about the risks to the programming and game itself b
 | R14 | Estimation | The team misjudges how long different tasks will take | The deadline is missed or the work is of a lower quality | not currently happening | M | H | The team will work together closely to make sure everyone is working at a good speed and encourage others to keep working. | All |
 | R15 | People | Bad team communication | Elements of the project may not be done and others duplicated | not currently happening | M | H | The team will ensure that they update the Trello and communicate their progress regularly | All |
 | R16 | People | Katie has to look after her child | She may not be able to commit to every meeting | Consistent risk | H | L | Using discord to hold online meetings | Katie |
-| R17 | Technology | GitHub has been known to go down | Work cannot be completed and unsaved work will be lost | not currently happening | M | H | Documents should be pulled to a local machine, to be pushed back onto GitHub when its services are available | All |
+| R17 | Technology | GitHub has been known to go down | Work cannot be completed and unsaved work will be lost | ~~not currently happening~~ **Update** see note 1| H | H | Documents should be pulled to a local machine, to be pushed back onto GitHub when its services are available | All |
 | R18 | People | Saud is in Dubai | Due to time difference, Saud is running on a different time schedule | For the next few weeks | n/a | L | Give Saud tasks that he can complete independantly | Saud |
 | R19 | People | Merging issues causing delays | If people make mistakes causing major bugs in the product, the project may be delayed  | Consistent risk | M | M | Use continuous integration to test the product between pull requests so issues can be spotted quickly | Jacob |
+
+note 1: GitHub has been having frequent 404 errors. Team members are ensuring they work on a local editor rather than through the github website. 23/02/22 [2] 16/03/22 down for atleast 3 hours. 23/3/22 down for atleast 2 hours   [3] 
+
+
+##Bibliography
+
+[1]I. Sommerville and M. Paul, Software engineering--ESEC ’93 : 4th European Software Engineering Conference, Garmisch-Partenkirchen, Germany, September 13-17, 1993 : proceedings. Berlin ; New York: Springer-Verlag, 1993.
+
+[2]“Slack and Github are down [Updated],” iMore, Feb. 22, 2022. https://www.imore.com/going-down-aws-struggling-and-yes-slack-and-github-are-down
+
+[3]“An update on recent service disruptions,” The GitHub Blog, Mar. 23, 2022. https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/ (accessed Apr. 24, 2022).

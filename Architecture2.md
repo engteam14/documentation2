@@ -6,19 +6,21 @@ Concrete architecture was produced jointly by PlantUML and Adobe Photoshop. The 
 
 ## Abstract Architecture
 
+![Abstract](https://github.com/engteam14/documentation2/blob/7d928b6fa62a1e32379910e2141af8635cccc0c3/Arch%20Images/Abstract.png/?raw=true)
 
 Fig 3.1.1: Diagram of the abstract architecture
 
-## Concrete Architecture**![](RackMultipart20220423-1-aqqicx_html_344c146a6cd0c6c0.png?raw=true)
+## Concrete Architecture
+
+![Misc Class](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Misc%20Class.png/?raw=true)
 
 Fig 3.1.2: Diagram of miscellaneous classes
 
-**4**![](RackMultipart20220423-1-aqqicx_html_3c07c36d3d65a21d.png)
+![Entity Component](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Entity%20Component.png/?raw=true)
 
 Fig 3.1.3: Diagram of Entity and Component classes
 
-![](RackMultipart20220423-1-aqqicx_html_914f2ef8b0f2c2fb.png)
-
+![Managers](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Manager.png/?raw=true)
 Fig 3.1.4: Diagram of Manager classes
 
 The abstract architecture is concerned with segmenting the large, monolithic task of building the game into separate logical elements which could be planned and reasoned about separately. Connections drawn between elements signify a logical relationship rather than necessarily representing extension or composition relations such as those featured in the UML diagram detailing the concrete architecture. For example, factions/colleges ended up implemented as components and managed implicitly, unlike what fig. 3.1.1 seems to suggest. Nevertheless, it is useful to see them grouped under intangibles while planning the overall architecture.

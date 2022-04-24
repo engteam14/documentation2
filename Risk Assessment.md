@@ -37,11 +37,13 @@ There is significant detail about the risks to the programming and game itself b
 | R17 | Technology | GitHub has been known to go down | Work cannot be completed and unsaved work will be lost | ~~not currently happening~~ **Update** see note 1| H | H | Documents should be pulled to a local machine, to be pushed back onto GitHub when its services are available | All |
 | R18 | People | Saud is in Dubai | Due to time difference, Saud is running on a different time schedule | For the next few weeks | n/a | L | Give Saud tasks that he can complete independantly | Saud |
 | R19 | People | Merging issues causing delays | If people make mistakes causing major bugs in the product, the project may be delayed  | Consistent risk | M | M | Use continuous integration to test the product between pull requests so issues can be spotted quickly | Jacob |
+| R20 | People | Conflicting opinions | Team members having conflicting opinions could cause discorse and delay the project | Consistent risk | M | M | Have a team leader for the group plus one for imlpementation and documentation who get the final say. | Katie/Jacob/Saud |
+| R21 | People | Misunderstanding of requirements | If the team misreads or misunderstands the requirements given, the final product could be not to the customers standard. | Consistent risk | M | M | Ensure brief is referred to often and clarifications made in the form of formal customer meeting at the start and contact via email or in person | Saud |
 
-note 1: GitHub has been having frequent 404 errors. Team members are ensuring they work on a local editor rather than through the github website. 23/02/22 [2] 16/03/22 down for atleast 3 hours. 23/3/22 down for atleast 2 hours   [3] 
+Note 1: GitHub has been having frequent 404 errors. Team members are ensuring they work on a local editor rather than through the github website. 23/02/22 [2] 16/03/22 down for atleast 3 hours. 23/3/22 down for atleast 2 hours [3] 
 
 
-##Bibliography
+## Bibliography
 
 [1]I. Sommerville and M. Paul, Software engineering--ESEC ’93 : 4th European Software Engineering Conference, Garmisch-Partenkirchen, Germany, September 13-17, 1993 : proceedings. Berlin ; New York: Springer-Verlag, 1993.
 

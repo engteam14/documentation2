@@ -39,7 +39,7 @@ We felt that some of the requirements the team had previously implemented did no
 
 **<span style="text-decoration:underline;">ef9f295: Added requirements relevant to the second stage of the assessment</span>**
 
-Updated the requirements page to include the new requirements that we received in the brief. 
+Updated the requirements page to include the new requirements that we received in the brief.
 
 **<span style="text-decoration:underline;">9845cef: Fixed Formatting</span>**
 
@@ -53,7 +53,7 @@ We felt that the use of ‘shall’ and ‘May’ were redundant measures of a r
 
 **<span style="text-decoration:underline;">6ec20bc: Changed word ‘money’ to ‘plunder’ to match wording in the code</span>**
 
-We noticed some inconsistencies in wording between the documentation and implementation sides of this project. Most notably, in the documentation section the word ‘money’ is consistently used while in the code this same thing is referred to as ‘plunder’. Not only did we feel that ‘plunder’ fit the theme but it was also the word used in the brief which led us to change the documentation in favour of keeping consistency. 
+We noticed some inconsistencies in wording between the documentation and implementation sides of this project. Most notably, in the documentation section the word ‘money’ is consistently used while in the code this same thing is referred to as ‘plunder’. Not only did we feel that ‘plunder’ fit the theme but it was also the word used in the brief which led us to change the documentation in favour of keeping consistency.
 
 **<span style="text-decoration:underline;">9917596: Cleared up points/XP confusion</span>**
 
@@ -79,7 +79,7 @@ After some discussions, we changed our task progression tool from Trello to GitH
 
 **<span style="text-decoration:underline;">299e9c9: Changed tools used to create Architectures</span>**
 
-Instead of using draw.io for Abstract architecture and plantuml for Concrete architecture, we used plantuml for both as well as for our Gantt Charts, as we had used this tool for the first assessment and found it relatively simple to use. 
+Instead of using draw.io for Abstract architecture and plantuml for Concrete architecture, we used plantuml for both as well as for our Gantt Charts, as we had used this tool for the first assessment and found it relatively simple to use.
 
 **<span style="text-decoration:underline;">25d9e44: Added an explanation for our teams’ approach towards Quality Control</span>**
 
@@ -101,3 +101,49 @@ Instead of continuing with the previous teams’ approach of having a task break
 
 Furthermore, instead of creating snapshots by condensing the roadmap to keep track of our progress and using a colour-coding scheme to highlight tasks that were due, we decided to use a colour-coding scheme to assign tasks to individuals/teams in the form of a Gantt chart.
 
+
+#Risk Assessment
+
+Note that in this report, unfortunately the risk ID's were missnumbered this was only realised near the end of the project (see commit d722ff5 and d469cf). As a result of this, the risk register numbers in the commits do not line up with the final report. Therefore we have added the final versions register ID's in brackets. The register ID's not in brackets are the ones that refer to the commit in that section.
+
+**<span style="text-decoration:underline;">dd7a86a: Added team specific risks and removed non-applicable risks and changed risk owners</span>**
+
+| ID | Type | Description | Consequences | Monitoring | Likelihood | Severity | Mitigation | Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R12 | Product | AI not being as advanced as it could be | The AI is either too good or bad. Making the gameplay worse for the user. | not currently happening | M | L | Fake AI via scripted interaction | Alexander |
+
+was removed because we have removed the A* algorithm and simplified the AI for the game, furthermore an advanced and genuine AI system is not a requirement for the project.
+
+Updated the risk owners to be members of our team rather than the previous team to ensure all risks are watched by members of the current team.
+
+Added risk R16(R12) as one of our team members has a child which means they are more likely to become unavailable in the project. This is especially important to list as a risk as the team member is team leader.
+
+Added risk R17(R13) of GitHub going down because the previous team included only codebase related risks but risks of lost work are an important factor to take into account in a software engineering Project
+
+Added R18(R14) as a member of our team is spending 4 weeks in Dubai and may be unavailable in the evenings due to the time difference. This is useful to add as it reminds us to schedule meetings at a time which also suits him. Saud is the leader for documentation so it is important that he is able to attend as many meetings as possible
+
+**<span style="text-decoration:underline;">434dc7a: Changed mitigation for R8</span>**
+The previous team listed the mitigation for R8(R9) (Rendering during movement may stutter/lag/flicker) as 'Cry in a pillow, curse the gods, switch code to Unity' which the team decided was unsuitable for a formal risk assesment and replaced with 'Consistent manual testing to spot graphical glitches'. We felt this is more appropriate for not only the writing style in a formal report but also an actual mitigation that can be reasonably carried out.
+
+**<span style="text-decoration:underline;">838cb5b: Add merging issue risk</span>**
+
+added risk R19(R15)
+
+| ID | Type | Description | Consequences | Monitoring | Likelihood | Severity | Mitigation | Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R19 | People | Merging issues causing delays | If people make mistakes causing major bugs in the product, the project may be delayed | Consistent risk | M | M | Use continuous integration to test the product between pull requests so issues can be spotted quickly | Jacob |
+
+this is because our team are not that experienced with using github and merging pull requests so there is more of a risk of errors happening. Also the mitigation of continuous integration is specific to assessment 2.
+
+**<span style="text-decoration:underline;">5535a7: Update Introduction + github outage</span>**
+
+In this commit we added some information on how we agreed we would create the risk assesment using the steps from Ian Sommervilles book. Despite not being the original team who created the original risks, we still followed these steps when adding new risks to the risk assesment and we decided that it is important to detail how you discuss and analyse the risks to show that the process is thorough and involves more than just thinking of them on the spot.
+
+We also added some information on what it means to have a risk owner and why it is useful.
+
+Furthermore, in this commit we added some information on times that github has gone down in the previous weeks as we were monitoring this risk and discussing it in our discord channel and felt it is important to show that the risk was monitored and provide proof of github going down in the form of a statement from GitHub themselves.
+
+
+**<span style="text-decoration:underline;">7e721bb & cb173e4 : Update Risk Assesment (Additional requirements)</span>**
+
+In this commit we added risks R20, R21 and R18 (R16-18), this is due to the fact that we missed out the conflicting opinions and misunderstanding of requirements in our original risk assesment commit and realised that actually these are very much things that happen in software engineering projects. We also decided to add a risk into the register about change management as this is actually an important part of assesment 2.

@@ -12,15 +12,15 @@ Fig 3.1.1: Diagram of the abstract architecture
 
 ## Concrete Architecture
 
-![Misc Class](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Misc%20Class.png/?raw=true)
+![Misc Class](https://github.com/engteam14/documentation2/blob/d3fe700773cadea355431ff8fd3fcfec537033f4/Arch%20Images/misc4.png/?raw=true)
 
 Fig 3.1.2: Diagram of miscellaneous classes
 
-![Entity Component](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Entity%20Component.png/?raw=true)
+![Entity Component](https://github.com/engteam14/documentation2/blob/d3fe700773cadea355431ff8fd3fcfec537033f4/Arch%20Images/entity-component3.png/?raw=true)
 
 Fig 3.1.3: Diagram of Entity and Component classes
 
-![Managers](https://github.com/engteam14/documentation2/blob/d2b08a4e8d5f0b41a0dd2ee9d63a7aa20d3f893f/Arch%20Images/Manager.png/?raw=true)
+![Managers](https://github.com/engteam14/documentation2/blob/d3fe700773cadea355431ff8fd3fcfec537033f4/Arch%20Images/manager3.png/?raw=true)
 Fig 3.1.4: Diagram of Manager classes
 
 The abstract architecture is concerned with segmenting the large, monolithic task of building the game into separate logical elements which could be planned and reasoned about separately. Connections drawn between elements signify a logical relationship rather than necessarily representing extension or composition relations such as those featured in the UML diagram detailing the concrete architecture. For example, factions/colleges ended up implemented as components and managed implicitly, unlike what fig. 3.1.1 seems to suggest. Nevertheless, it is useful to see them grouped under intangibles while planning the overall architecture.

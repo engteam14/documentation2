@@ -17,7 +17,7 @@ The risks to the project are presented in the table below, with the following in
 * Monitoring- shows whether the risk is happening, indicating if it is of immediate concern
 * Likelihood and severity- allows the team to make a judgement about how much of a priority this risk is in solving or preventing
 * Mitigation - details the steps that need to be, or are being taken to prevent the risk from happening. 
-* Owner- shows who is responsible for either solving the problem or arranging for it to be solved
+* Owner- shows who is responsible for either solving the problem or arranging for it to be solved and monitoring the likelihood
 
 There is significant detail about the risks to the programming and game itself because each item can affect the overall game, and are distinct issues. The likelihood and severity of the risks are also included because this tells us which risk to prioritise in mitigating, and each item has an ‘owner’- without one, the responsibility can be unclear, causing the issue to not be solved. If a risk is owned by someone this means that it is their responsibility to log any occurences of this and decide if the mitigiation or likelihood needs changing. This may be done in the form of a message to the person editing this document or editing the document directly. These updates will be date stamped. 
 
@@ -39,6 +39,7 @@ There is significant detail about the risks to the programming and game itself b
 | R15 | People | Merging issues causing delays | If people make mistakes causing major bugs in the product, the project may be delayed  | Consistent risk | M | M | Use continuous integration to test the product between pull requests so issues can be spotted quickly | Jacob |
 | R16 | People | Conflicting opinions | Team members having conflicting opinions could cause discorse and delay the project | Consistent risk | M | M | Have a team leader for the group plus one for imlpementation and documentation who get the final say. | Katie/Jacob/Saud |
 | R17 | People | Misunderstanding of requirements | If the team misreads or misunderstands the requirements given, the final product could be not to the customers standard. | Consistent risk | M | M | Ensure brief is referred to often and clarifications made in the form of formal customer meeting at the start and contact via email or in person | Saud |
+| R18 | People | Struggling to understand previous teams code | Spending a long time learning how their code works can delay the implementation of new requirements | Consistent risk | M | M | Communicate between implementation team and discuss how the new code base is structured and peculiarities of implementation | Jacob |
 
 Note 1: GitHub has been having frequent 404 errors. Team members are ensuring they work on a local editor rather than through the github website. 23/02/22 [2] 16/03/22 down for atleast 3 hours. 23/3/22 down for atleast 2 hours [3] 
 

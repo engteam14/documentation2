@@ -12,7 +12,7 @@ Fig 3.1.1: Diagram of the abstract architecture
 
 ## Concrete Architecture
 
-![Misc Class](https://github.com/engteam14/documentation2/blob/b8993017ac562ea30688c237e2869428a74f7135/Arch%20Images/entity-component3.png/?raw=true)
+![Misc Class](https://github.com/engteam14/documentation2/blob/b96a8caa726408ef5597dc450d257fa574526fb9/Arch%20Images/misc4.png/?raw=true)
 
 Fig 3.1.2: Diagram of miscellaneous classes
 

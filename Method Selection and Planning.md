@@ -102,7 +102,7 @@ The members for each of our two previously mentioned teams are as follows:
 * Documentation Team: Saud, Felix, Joachim
 
 
-![Team Tasks1](https://github.com/engteam14/documentation2/blob/Method-Selection-and-Planning/Team-Task-Assignments-1.png/?raw=true)
+![Team Tasks1](https://github.com/engteam14/documentation2/blob/Method-Selection-and-Planning/Team_Task_Assignment_2.png/?raw=true)
 *Fig.4: Task assignments using a colour-coding scheme*
 
 

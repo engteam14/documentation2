@@ -22,7 +22,7 @@ Conversion notes:
 
 # Change report:
 
-# a) Formal Apporach to Change Management
+# a) Formal Approach to Change Management
 
 ## **<span style="text-decoration:underline;">Documentation</span>**
 
@@ -97,12 +97,12 @@ We also changed how tasks were assigned (assigning tasks as the project progress
 
 **<span style="text-decoration:underline;">ff9ba36: Changed all of Part C (Systematic Project Plan)</span>**
 
-Instead of continuing with the previous teams’ approach of having a task breakdown table followed by an initial Gantt chart showing a theoretical schedule for when each task should be completed, we decided to design an initial roadmap of all the major tasks that needed to be done (as a Gantt chart) which also showed a theoretical schedule of when each of these tasks needed to be completed. We then justified how we went about creating this chart and why we scheduled the tasks the way we did. We then decided to update this initial Gantt chart every week based on task progression/completion in that week, depicting the evolution of our plan throughout the project. We then added the final Gantt chart to the document so that it would be easy to compare the changes made with regards to the initial plan and all the intermediate Gantt charts can be found on our website.
+Instead of continuing with the previous teams’ approach of having a task breakdown table followed by an initial Gantt chart showing a theoretical schedule for when each task should be completed, we decided to design an initial roadmap of all the major tasks that needed to be done (as a Gantt chart) which also showed a theoretical schedule of when each of these tasks needed to be completed. We then justified how we went about creating this chart and why we scheduled the tasks the way we did. We then decided to update this initial Gantt chart every week based on task progression/completion in that week, depicting the evolution of our plan throughout the project. We then added the final Gantt chart to the document so that it would be easy to compare the changes made with regards to the initial plan and all the intermediate Gantt charts can be found on our [website](https://engteam14.github.io/website2/roadmap.html/?raw=true).
 
-Furthermore, instead of creating snapshots by condensing the roadmap to keep track of our progress and using a colour-coding scheme to highlight tasks that were due, we decided to use a colour-coding scheme to assign tasks to individuals/teams in the form of a Gantt chart.
+Furthermore, instead of creating snapshots by condensing the roadmap to keep track of our progress and using a colour-coding scheme to highlight tasks that were due, we decided to use a colour-coding scheme to assign tasks to individuals/teams in the form of a Gantt chart which can be seen [here](https://github.com/engteam14/documentation2/blob/Method-Selection-and-Planning/Team_Task_Assignment_2.png/?raw=true).
 
 
-#Risk Assessment
+# Risk Assessment
 
 Note that in this report, unfortunately the risk ID's were missnumbered this was only realised near the end of the project (see commit d722ff5 and d469cf). As a result of this, the risk register numbers in the commits do not line up with the final report. Therefore we have added the final versions register ID's in brackets. The register ID's not in brackets are the ones that refer to the commit in that section.
 

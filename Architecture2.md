@@ -6,7 +6,7 @@ Concrete architecture was produced jointly by PlantUML and Adobe Photoshop. The 
 
 ## Abstract Architecture
 
-![Abstract](https://github.com/engteam14/documentation2/blob/b8993017ac562ea30688c237e2869428a74f7135/Arch%20Images/Abstract%20diagram.drawio.png/?raw=true)
+![Abstract](https://github.com/engteam14/documentation2/blob/db9690cc011bf845a60436a93928f6acd81e2d7e/Arch%20Images/Abstract2%20FIINAL.png/?raw=true)
 
 Fig 3.1.1: Diagram of the abstract architecture
 

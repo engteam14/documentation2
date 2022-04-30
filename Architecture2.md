@@ -23,8 +23,7 @@ Fig 3.1.3: Diagram of Entity and Component classes
 ![Managers](https://github.com/engteam14/documentation2/blob/00189b8e10aaeaa0334fd04f4f3239f639c026cc/Arch%20Images/manager4FINAL.png/?raw=true)
 Fig 3.1.4: Diagram of Manager classes
 
-3b)
-Abstract Architecture
+#### 3b)
 The abstract architecture is concerned with decomposing the game into smaller logical elements which could be planned and reasoned about separately. Connections drawn between groups of elements signify a logical relationship rather than necessarily representing extension or composition relations (shown by red lines), the diagram also shows some important classes, their attributes, and Composition/Aggregation. Our abstract architecture mainly focuses on the entity-component relationships the game would need as well as some other intangibles and the concept of having managers which are logically linked to the entities. This enabled us to have a base outline of the different classes needed in order to develop our concrete ar
 The concrete architecture builds on the abstract in two main ways, by capturing additional implementation details, and by reflecting the contribution of the game engine to enabling game functionality.
 #### Entity Components

@@ -12,15 +12,15 @@ Fig 3.1.1: Diagram of the abstract architecture
 
 ## Concrete Architecture
 
-![Misc Class](https://github.com/engteam14/documentation2/blob/b96a8caa726408ef5597dc450d257fa574526fb9/Arch%20Images/misc4.png/?raw=true)
+![Misc Class](https://github.com/engteam14/documentation2/blob/00189b8e10aaeaa0334fd04f4f3239f639c026cc/Arch%20Images/misc5FINAL.png/?raw=true)
 
 Fig 3.1.2: Diagram of miscellaneous classes
 
-![Entity Component](https://github.com/engteam14/documentation2/blob/d3fe700773cadea355431ff8fd3fcfec537033f4/Arch%20Images/entity-component3.png/?raw=true)
+![Entity Component](https://github.com/engteam14/documentation2/blob/00189b8e10aaeaa0334fd04f4f3239f639c026cc/Arch%20Images/entity-component4FINAL.png/?raw=true)
 
 Fig 3.1.3: Diagram of Entity and Component classes
 
-![Managers](https://github.com/engteam14/documentation2/blob/b8993017ac562ea30688c237e2869428a74f7135/Arch%20Images/manager3.png/?raw=true)
+![Managers](https://github.com/engteam14/documentation2/blob/00189b8e10aaeaa0334fd04f4f3239f639c026cc/Arch%20Images/manager4FINAL.png/?raw=true)
 Fig 3.1.4: Diagram of Manager classes
 
 3b)

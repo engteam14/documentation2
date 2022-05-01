@@ -37,6 +37,7 @@ Where possible, a single team member did all changes for a single deliverable an
 For change management for our implementation, we added each change that needed to be made along with each new feature needed as issues in our repository linked to our project board. When making changes, we wrapped each block of change in comments like  `//start of change for assessment 2` and `//end of change for assessment 2` and single line changes just having the comment `//change for assessment 2'. We also added `//added for assessment 2` to the JavaDoc for each new method. This means that to view all changes in our codebase, one can simply search for `assessment 2`. Similar to documentation, our code repository is set up so that pull requests to main must be reviewed by another team member before being allowed to merge. Again this means that mistakes and issues sich as forgetting to comment code are more likely to be spotted. Further more the Continuous Integration running tests on Pull Requests helps with change management as it ensure that the changes made havent effected other parts of the game. 
 
 # Requirements
+Requirements documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Req1.pdf
 
 **<span style="text-decoration:underline;">8948b74: Removed Unnecessary requirements</span>**
 
@@ -73,6 +74,7 @@ https://github.com/engteam14/documentation2/pull/77#issue-1173441720
 A further inconsistency we noted was the lack of clarity between ‘points’ and ‘XP’ which was pointed out in the feedback as an issue. The team felt it was best to merge the two so we ended up merging the two and using ‘XP’ for both.
 
 # Method Selection and PLanning
+Method Selection and Planning documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Plan1.pdf
 
 **<span style="text-decoration:underline;">05e5339: Changed Software Engineering method</span>**
 
@@ -132,6 +134,8 @@ Furthermore, instead of creating snapshots by condensing the roadmap to keep tra
 
 
 # Risk Assessment
+Risk Assessment Documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Risk1.pdf
+
 
 Note that in this report, unfortunately the risk ID's were missnumbered this was only realised near the end of the project (see commit d722ff5 and d469cf). As a result of this, the risk register numbers in the commits do not line up with the final report. Therefore we have added the final versions register ID's in brackets. The register ID's not in brackets are the ones that refer to the commit in that section.
 

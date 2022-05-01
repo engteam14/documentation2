@@ -28,13 +28,13 @@ Conversion notes:
 
 ### **<span style="text-decoration:underline;">Github</span>**
 
-Upon starting the project, we read through the breif and added an issue to our project specifying each section of the documentation that needs to be looked at/changed. For each section of documentation (i.e. Risk Assessment, Requirements etc.) we created an independent branch. We did this to allow each change to the core documentation to be approved by one or more other member of the team before being pulled to main. This means that mistakes in grammar or content is more likely to be spotted if multiple team members read through changes.
-Furthermore, this allowed us to create a template for pull requests which allowed the person making the changes to specify which issue number is resolved, a description of the changes made and the reasons for making those changes. The ability to specify the issue number relevant to made changes proved to be extremely useful as it meant not only were the specified issues automatically resolved but it also allowed us to easily keep track of ongoing issues. The unique numbers assigned to each change made also allowed for easy referencing to specific changes in our documentation. 
+Upon starting the project, we read through the brief and added an issue to our project specifying each section of the documentation that needs to be looked at/changed. For each section of documentation (i.e. Risk Assessment, Requirements etc.) we created an independent branch. We did this to allow each change to the core documentation to be approved by one or more other member of the team before being pulled to main. This means that mistakes in grammar or content is more likely to be spotted if multiple team members read through changes.
+Furthermore, this allowed us to create a template for pull requests which allowed the person making the changes to specify which issue number is resolved, a description of the changes made and the reasons for making those changes. The ability to specify the issue number relevant to made changes proved to be extremely useful as it meant not only were the specified issues automatically resolved but it also allowed us to easily keep track of ongoing issues. The unique numbers assigned to each change made also allowed for easy referencing to specific changes in our documentation.
 Where possible, a single team member did all changes for a single deliverable and then went on to complete the relevant section of the change report so that the information provided in the change report was as accurate as possible.
 
 ### **<span style="text-decoration:underline;">Implementation </span>**
 
-For change management for our implementation, we added each change that needed to be made along with each new feature needed as issues in our repository linked to our project board. When making changes, we wrapped each block of change in comments like  `//start of change for assessment 2` and `//end of change for assessment 2` and single line changes just having the comment `//change for assessment 2'. We also added `//added for assessment 2` to the JavaDoc for each new method. This means that to view all changes in our codebase, one can simply search for `assessment 2`. Similar to documentation, our code repository is set up so that pull requests to main must be reviewed by another team member before being allowed to merge. Again this means that mistakes and issues sich as forgetting to comment code are more likely to be spotted. Further more the Continuous Integration running tests on Pull Requests helps with change management as it ensure that the changes made havent effected other parts of the game. 
+For change management for our implementation, we added each change that needed to be made along with each new feature needed as issues in our repository linked to our project board. When making changes, we wrapped each block of change in comments like  `//start of change for assessment 2` and `//end of change for assessment 2` and single line changes just having the comment `//change for assessment 2`. We also added `//added for assessment 2` to the JavaDoc for each new method. This means that to view all changes in our codebase, one can simply search for `assessment 2`. Similar to documentation, our code repository is set up so that pull requests to main must be reviewed by another team member before being allowed to merge. Again this means that mistakes and issues such as forgetting to comment code are more likely to be spotted. Further more the Continuous Integration running tests on Pull Requests helps with change management as it ensure that the changes made havent effected other parts of the game.
 
 # Requirements
 Requirements documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Req1.pdf
@@ -43,7 +43,7 @@ Requirements documentation from Assessment 1: https://engteam14.github.io/websit
 
 https://github.com/engteam14/documentation2/pull/66#issue-1166239474
 
-We felt that some of the requirements the team had previously implemented did not appear in any brief, weren’t asked for by the customer or were just deemed to be redundant. For example the requirements ‘FR_BOSS_UNLOCK_TRACKING’ and ‘FR_BOSS_SPAWN’ involved the use of a boss that was not mentioned in the brief nor customer interviews and therefore had no justification to appear in requirements. This will change R9 as the estimation of the scope of the project would be significantly increased if these requirements were left in therefore making the time esimate of the prject completion change significantly.
+We felt that some of the requirements the team had previously implemented did not appear in any brief, weren’t asked for by the customer or were just deemed to be redundant. For example the requirements ‘FR_BOSS_UNLOCK_TRACKING’ and ‘FR_BOSS_SPAWN’ involved the use of a boss that was not mentioned in the brief nor customer interviews and therefore had no justification to appear in requirements. This will change R9 as the estimation of the scope of the project would be significantly increased if these requirements were left in therefore making the time estimate of the project completion change significantly.
 
 **<span style="text-decoration:underline;">ef9f295: Added requirements relevant to the second stage of the assessment</span>**
 
@@ -71,10 +71,9 @@ We noticed some inconsistencies in wording between the documentation and impleme
 
 https://github.com/engteam14/documentation2/pull/77#issue-1173441720
 
-A further inconsistency we noted was the lack of clarity between ‘points’ and ‘XP’ which was pointed out in the feedback as an issue. The team felt it was best to merge the two so we ended up merging the two and using ‘XP’ for both.
+A further inconsistency we noted was the lack of clarity between ‘points’ and ‘XP’. The team felt it was best to merge the two so we ended up merging the two and using ‘XP’ for both.
 
 # Method Selection and PLanning
-Method Selection and Planning documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Plan1.pdf
 
 **<span style="text-decoration:underline;">05e5339: Changed Software Engineering method</span>**
 
@@ -151,11 +150,11 @@ was removed because we have removed the A* algorithm and simplified the AI for t
 
 Updated the risk owners to be members of our team rather than the previous team to ensure all risks are watched by members of the current team.
 
-Added risk R16(R12) as one of our team members has a child which means they are more likely to become unavailable in the project. This is especially important to list as a risk as the team member is team leader.
+Added risk R16(R11) as one of our team members has a child which means they are more likely to become unavailable in the project. This is especially important to list as a risk as the team member is team leader.
 
-Added risk R17(R13) of GitHub going down because the previous team included only codebase related risks but risks of lost work are an important factor to take into account in a software engineering Project
+Added risk R17(R12) of GitHub going down because the previous team included only codebase related risks but risks of lost work are an important factor to take into account in a software engineering Project
 
-Added R18(R14) as a member of our team is spending 4 weeks in Dubai and may be unavailable in the evenings due to the time difference. This is useful to add as it reminds us to schedule meetings at a time which also suits him. Saud is the leader for documentation so it is important that he is able to attend as many meetings as possible
+Added R18(R13) as a member of our team is spending 4 weeks in Dubai and may be unavailable in the evenings due to the time difference. This is useful to add as it reminds us to schedule meetings at a time which also suits him. Saud is the leader for documentation so it is important that he is able to attend as many meetings as possible
 
 **<span style="text-decoration:underline;">434dc7a: Changed mitigation for R8</span>**
 
@@ -167,7 +166,7 @@ The previous team listed the mitigation for R8(R9) (Rendering during movement ma
 
 https://github.com/engteam14/documentation2/pull/82#issue-1204388497
 
-added risk R19(R15)
+added risk R19(R14)
 
 | ID | Type | Description | Consequences | Monitoring | Likelihood | Severity | Mitigation | Owner |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -177,15 +176,64 @@ this is because our team are not that experienced with using github and merging 
 
 **<span style="text-decoration:underline;">5535a7: Update Introduction + github outage</span>**
 
-In this commit we added some information on how we agreed we would create the risk assesment using the steps from Ian Sommervilles book. Despite not being the original team who created the original risks, we still followed these steps when adding new risks to the risk assesment and we decided that it is important to detail how you discuss and analyse the risks to show that the process is thorough and involves more than just thinking of them on the spot.
+In this commit we added some information on how we agreed we would create the risk assessment using the steps from Ian Sommervilles book. Despite not being the original team who created the original risks, we still followed these steps when adding new risks to the risk assessment and we decided that it is important to detail how you discuss and analyse the risks to show that the process is thorough and involves more than just thinking of them on the spot.
 
 We also added some information on what it means to have a risk owner and why it is useful.
 
 Furthermore, in this commit we added some information on times that github has gone down in the previous weeks as we were monitoring this risk and discussing it in our discord channel and felt it is important to show that the risk was monitored and provide proof of github going down in the form of a statement from GitHub themselves.
 
 
-**<span style="text-decoration:underline;">7e721bb & cb173e4 : Update Risk Assesment (Additional requirements)</span>**
+**<span style="text-decoration:underline;">7e721bb & cb173e4 : Update Risk Assessment (Additional requirements)</span>**
 
 https://github.com/engteam14/documentation2/pull/94#issue-1220341590
 
-In this commit we added risks R20, R21 and R18 (R16-18), this is due to the fact that we missed out the conflicting opinions and misunderstanding of requirements in our original risk assesment commit and realised that actually these are very much things that happen in software engineering projects. We also decided to add a risk into the register about change management as this is actually an important part of assesment 2.
+In this commit we added risks R20, R21 and R18 (R15-17), this is due to the fact that we missed out the conflicting opinions and misunderstanding of requirements in our original risk assessment commit and realised that actually these are very much things that happen in software engineering projects. We also decided to add a risk into the register about change management as this is actually an important part of assessment 2.
+
+
+# Architecture
+
+**<span style="text-decoration:underline;">db9690c: Change the Abstract Architecture </span>**
+
+https://github.com/engteam14/documentation2/commit/db9690cc011bf845a60436a93928f6acd81e2d7e
+
+The previous teams abstract architecture looked like so:
+
+[Abstract](https://github.com/engteam14/documentation2/blob/bdead4f13288eb98c86c680d12f073f4b0e2899f/Arch%20Images/Abstract.png/?raw=true)
+
+We decided to replace it with a more detailed diagram that shows some key classes and their dependencies while maintaining the clear concepts of the entity-component relationship as well as the relationships between the Managers and the entities and intangibles and between the UI and entities and AI and components. This is because it gives a clearer idea of the main concepts behind the concrete architecture. It also allowed us to plan out some of the new features required for assessment 2 such as PowerUps and Obstacles
+
+
+
+**<span style="text-decoration:underline;">1507ee5: Update the Concrete Architecture </span>**
+
+
+https://github.com/engteam14/documentation2/commit/1507ee59eced41817a2dfbbb4873731e21a9a31a?short_path=5ca78fc#diff-5ca78fcca76d458ee28fe135d257b597d87ec069ce8fbbe6e30c06679e890c40
+
+The original architecture can be viewed [here](https://engteam14.github.io/website2/pdfs/Arch1.pdf)
+
+
+Due to the fact that we had to add new classes for the new requirements in the second assessment, the concrete architecture had to be added to. The first change we made was to the the amount of methods and attributes in each class, which has been cut down dramatically. This is due to the space constraints and an attempt at making the diagrams more easily understandable. We kept only the functions and attributes that are the most paramount to the functionality of the class do that it is still clear what the class does but there aren't any getters and setters or functions that simply call on another function. We also removed the `Test` class as it currently isn't used in the codebase so we felt that going forward we can just use the built in functionality of the graphics classes of LibGdx to handle rendering text and fonts.
+`Attributes` was also removed as it is actually a private class within the `AINavigation` component so isn't relevant to the wider architecture of the game. Lastly, `NodeHeuristic` class was removed as it isnt currently in use in the code base as AI wasnt a requirement for the assessment. The class was eventually removed from the codebase.
+
+Furthermore we added:
+  - `SaveManager` into the managers image. This class is for handling the saving and resuming of the game which is a new requirement for Assessment 2 (UR_GAME_SAVE, FR_SAVE_GAME_STATE, FR_LOAD_GAME) and was added to keep this functionality separate for organisation purposes
+  - `PowerUpAssigned` component which the player has, shown by the new line between them, was added for this assessment too. This is to hold the `powerUp` that the player has, to fulfil FR_POWER_UP. `PowerUp` was also added into the Miscellanious diagram for this assessment as each instance of this would be a new power up.
+  - The other component that was added is `ObstacleControl` which is used to add damage causing capabilities to the new `Obstacle` entity. We also had the links between `Renderable`, `RigidBody` and `Transform` and the new `Obstacle` class as it makes sense for the obstacles to have these components to allow them to be rendered, register collisions and be placed on the map/move.
+  - As well as `Obstacle` being added, another class called `Weather` was added to the diagram which inherits `Obstacle` as the weather would have similar functionalities to the obstacles except that the weather moves around the map.
+  - `PowerUpPickUp` was also added as it is the class for the entity that the player can pick up to give themselves a boost in the game. This is new for assessment 2 - FR_POWER_UP and UR_POWER_UP
+  - Furthermore, we added the `Building` class into the diagram. This class was already in the code base when we took over the project, but was not detailed in the Concrete architecture. We felt that the colleges having a set of buildings and the `Building` entities being the one to have the `Renderable`  and `RigidBody` components meant that it was logical they should be shown on the concrete architecture because otherwise colleges may be mistaken as not having an image to represent them on the screen.
+  - We also added that the `College` class has the `Pirate` to allow the colleges to be able to shoot as this wasn't previously implemented despite being in the requirements for assessment 2.
+  - `com.badlogic.gdx.ScreenAdapter` was added because this was an important detail that we misunderstood when taking over the game. The `ScreenAdapter` concept is specific to LibGdx so would only be something you would already know if you had past experience with LibGdx. Along with adding this, we added the `PauseScreen` to help us add the UI functionality to allow the game to pause, restart and be saved.
+  - Lastly we added the main game class `PirateGame`. This is because it is actually the main class of the game and so is one of the most important.
+
+
+**<span style="text-decoration:underline;">d267759 & 6d08e8: Replace the justification for architecture </span>**
+
+
+https://github.com/engteam14/documentation2/commit/d267759f9502bf93430548026ff2afd3731f2fb1
+
+https://github.com/engteam14/documentation2/commit/6d0e8e843e99c32041f1e7966775173d17186fa9
+
+
+The previous team had a write up consisting of a page of justification for the abstract and concrete architecture as a whole, and then a page of going through some of the requirements and stating where they were covered by the architecture. unfortunately it is not clear why they chose to only mention the requirements that they did as they didn't cover all of them. Due to this, we felt that the write up didn't cover the "Systematic justification" requirement in the brief.  
+Instead we replaced this section with a brief explanation on the detail levels of both the abstract and concrete architecture followed by a systematic explanation of each key feature in the game, stating how it is shown in the concrete architecture, some explanation as to the function of the classes, and how it was represented in the abstract architecture. We ensured we mentioned every class that was included in the concrete architecture and their related requirements.

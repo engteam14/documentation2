@@ -8,7 +8,7 @@ GitHub Actions is configured using .yml files stored under `/.github/workflows`,
 - On our website repository we have two separate workflows. Whenever any changes are made to the repository, the GitHub Pages workflow will always be triggered. This workflow runs `jekyll build` on the repository and deploys the results to the online website. This ensures the website is always online and up to date as required. If changes are made involving the `/markdowns` directory, a workflow will additionally trigger to convert markdown files to pdf files. This ensures that all deliverables are available in PDF format as required.
 
 # Continuous Integration b)
-In each of our repositories we added a continuous integration workflow to ensure that the risk of things like merging issues causing delays (R19 in risk assessment) and additional work from manually creating pdfs and uploading to the website meaning the team has to do more work than predicted (R14 risk in risk assessment)
+In each of our repositories we added a continuous integration workflow to ensure that the risk of things like merging issues causing delays [(R14 in risk assessment)](https://engteam14.github.io/website2/pdfs/Risk%20Assessment.pdf) and additional work from manually creating pdfs and uploading to the website meaning the team has to do more work than predicted [(R9 risk in risk assessment)](https://engteam14.github.io/website2/pdfs/Risk%20Assessment.pdf)
 
 ## yorkpirates2 (game) repository
 Continuous integration occurs in two ways in our game repository

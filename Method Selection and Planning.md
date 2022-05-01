@@ -36,7 +36,7 @@ To ensure that the work produced was of high-quality, our team decided that it w
 
 **Architecture**
 
-* We used PlantUML to create the Gantt Charts as well as Abstract and Concrete Architecture diagrams as the team had prior experience in using this tool.
+* We used draw.io to create our Abstract Architecture diagram, PlantUML and Adobe Photoshop to create our Concrete Architecture diagram and we created our Gantt charts using PlantUML, as the team had prior experience in using these tools.
 
 
 **Testing**

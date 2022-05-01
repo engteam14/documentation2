@@ -1,5 +1,7 @@
 ## Risk assessment and mitigation
 
+Risk Assessment and Mitigation documentation from Assessment 1: https://engteam14.github.io/website2/pdfs/Risk1.pdf
+
 This section will outline the risks that we have established will be possible to occur in this project along with some more detail about them. 
 
 To create thes risks we will follow the process that Ian Somemrville details in his book *Software Engineering* [1]. Sommerville sums up the process of creating a risk assesment in 4 steps. 

@@ -189,7 +189,7 @@ In this commit we added risks R20, R21 and R18 (R15-17), this is due to the fact
 
 The previous teams abstract architecture looked like so:
 
-[Abstract](https://github.com/engteam14/documentation2/blob/bdead4f13288eb98c86c680d12f073f4b0e2899f/Arch%20Images/Abstract.png/?raw=true)
+![Abstract](https://github.com/engteam14/documentation2/blob/bdead4f13288eb98c86c680d12f073f4b0e2899f/Arch%20Images/Abstract.png/?raw=true)
 
 We decided to replace it with a more detailed diagram that shows some key classes and their dependencies while maintaining the clear concepts of the entity-component relationship as well as the relationships between the Managers and the entities and intangibles and between the UI and entities and AI and components. This is because it gives a clearer idea of the main concepts behind the concrete architecture. It also allowed us to plan out some of the new features required for assessment 2 such as PowerUps and Obstacles
 

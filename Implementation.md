@@ -1,6 +1,9 @@
+
+# Implementation
+#### a)
 Link to repository: [https://github.com/engteam14/yorkpirates2.git](https://github.com/engteam14/yorkpirates2.git)
 
-# Implemention of our Architecture and Requirements
+#### b) 
 In the following sections we explain how each requirement is implemented in the code base along with what classes are used from the concrete architecture.
 
 **UR_PLATFORM** - We coded our project in Java using the LibGdx library. As a result of this our game deploys as a jar file, meaning that it can be run cross platform on any platform with Java. This satisfies FR_CROSS_PLATFORM_WIN, FR_CROSS_PLATFORM_MAC and FR_CROSS_PLATFORM_GNU_LINUX, as all of these platforms support Java. Furthermore, as LibGdx is based on OpenGL this allows us to run our game with stable graphics past 30fps (FR_MIN_FPS), and scale the game to different resolutions (FR_VIEWPORT_SCALING). LibGdx also provides an `InputManager`, allowing us to detect input easily in our game in order to satisfy FR_MENU_KB_INPUT. Beyond the basic framework of LibGdx, we also coded our project using an Entity-Component system. In this system, all entities inherit from `Entity`, and call components inherit from `Component`, this allows shared features such as event calls to be given to all entities and components. An `Entity` may have any number of `Components`, all of which provide different functionalities, for example a `Transform` gives an object a position, rotation and scale within the game world, while a `Renderable` allows that object to be displayed in the world with a sprite.

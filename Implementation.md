@@ -43,16 +43,18 @@ The player can spend their plunder in the games shop. This is displayed on the b
 
 **UR_GAME_SAVE** - To implement the saving of the game state, as shown in the concrete architecture, the manager class `SaveManager` was added.. To allow the user to save their current progress in the game (FR_SAVE_GAME_STATE), the `SaveManager.SaveGame()` method is called upon clicking the ‘Save+Exit’ button in the pause screen. 
 The `SaveGame()` method systematically saves the state of each `College` and `Ship` in the game as well as the selected difficulty and the currentQuest..: 
-It first loads the preferences file using `Gdx.app.getPreferences("pirate/GameSave_game_1")`.
+- It first loads the preferences file using `Gdx.app.getPreferences("pirate/GameSave_game_1")`.
 (creates a new one if already there or overwrites the values in it if it already exists)
-The first thing saved to the prefs file is the Difficulty.
-Then it iterates over the list of all ships in the game, where the player is the first in the list, adding the coordinates of the ship, the health, ammo, points, plunder and the faction it is assigned to. 
-Then it fetches the list of all colleges with `GameManager.getColleges()`. Again it iterates over the ArrayList but this time only saves whether or not the College is alive. 
-Lastly it saves the preferences file using `prefs.flush()`
+- The first thing saved to the prefs file is the Difficulty.
+- Then it iterates over the list of all ships in the game, where the player is the first in the list, adding the coordinates of the ship, the health, ammo, points, plunder and the faction it is assigned to. 
+- Then it fetches the list of all colleges with `GameManager.getColleges()`. Again it iterates over the ArrayList but this time only saves whether or not the College is alive. 
+- Lastly it saves the preferences file using `prefs.flush()`
+
 To implement loading the game, (FR_GAME_LOAD), the `menu` screen calls the `PirateGame.LoadGame()` method on pressing ‘resume ‘ which calls `SaveManager.LoadGame()` which gets the difficulty for the game first from the preferences file and tells the game manager to change it. It then calls SaveManager.SpawnGame()’ which loads the list of ships and iterates through it, changing the values assigned to each ship in accordance with those loaded from the .prefs file. If the value is not saved in the file then it keeps the standard value. It then goes through the list of colleges, calling `.killThisCollege()` on each college that is dead in the saved game. 
 
 ### Significant Changes to previous code
 To implement some of the requirements we had to make the following changes to the code from the previous team:
+
 **PR [#29](https://github.com/engteam14/yorkpirates2/pull/29), Initial Tests** - In order to create tests for our implementation, we required the game to be run headlessly. In order to achieve this, we had to refactor code relating to rendering. We removed the `tryInit()` method from `RenderingManager`, so as to cause it to only `Initialize()` when we choose, as well as modifying `addItem()` to prevent this change from causing it to error. The game only renders if we call `RenderingManager.Initialize()`, so this change allowed us to call it in `PirateGame` when running the game usually, but not call it in tests to run it headlessly ([`2164768`](https://github.com/engteam14/yorkpirates2/commit/2164768)). We additionally had to modify `GameManager.SpawnGame()`, to allow it to be ran without triggering `CreateWorldMap()`, as creating a `WorldMap` will crash if `RenderingManager.Initialize()` has not been run ([`63790f0`](https://github.com/engteam14/yorkpirates2/commit/63790f0)).
 
 **PR [#51](https://github.com/engteam14/yorkpirates2/pull/51), Improvements** - In order to implement UR_EARN_XP, many aspects of the code had to be refactored to include ‘points’. Attributes, in addition to getters and setters, had to be added to `Pirate`. `GameScreen` had to be updated to display the value. `Player` had to be updated to award a ‘point’ every second in the `update()` event. Many `Quest`s had to be given a reward value, with which `QuestManager` could use to supply ‘points’ upon completion. ([`60f5144`](https://github.com/engteam14/yorkpirates2/commit/60f5144))

@@ -13,6 +13,7 @@ GitHub Actions is configured using .yml files stored under `/.github/workflows`,
 In each of our repositories we added a continuous integration workflow to ensure that the risk of things like merging issues causing delays [(R14 in risk assessment)](https://engteam14.github.io/website2/pdfs/Risk%20Assessment.pdf) and additional work from manually creating pdfs and uploading to the website meaning the team has to do more work than predicted [(R9 risk in risk assessment)](https://engteam14.github.io/website2/pdfs/Risk%20Assessment.pdf)
 
 ## yorkpirates2 (game) repository
+[View Workflows](https://github.com/engteam14/yorkpirates2/tree/main/.github/workflows)  
 Continuous integration occurs in two ways in our game repository
   1. If a pull request is made, the `test`  workflow is run
      - This is to ensure that the act of merging the implementation branch (different for each part of the game being worked on) and the main branch, particularly the resolution of conflicts, has not caused any of the game to break.
@@ -40,8 +41,11 @@ Tasks: **Builds** the project using Gradle. Uses the javadoc command to **genera
 
 This means that all of the JavaDocs in our code are viewable on the website to allow for future developers to inspect but also to allow the rest of the team to view them easily
 ## documentation2 repository
+[View Workflows](https://github.com/engteam14/documentation2/blob/main/.github/workflows/deploy.yml)  
+
 If a pull request or push to the main branch in the documentation repository is made, `deploy` is ran.
 ##### `deploy` workflow
+
 Deploys the markdown files to the website2 repository. This allows us to keep the websites documentation files up to date.
 ```
 - name: Deploy Markdown to Website
@@ -57,6 +61,7 @@ Deploys the markdown files to the website2 repository. This allows us to keep th
 > Example yml of deploying to website repository
 
 ## website2 repository
+[View Workflows](https://github.com/engteam14/website2/blob/main/.github/workflows/pdf.yml)  
 All continuous integration in this repository occurs on a push to the main branch.
 `pages-build-deployment` will always be ran, however `convert` will only be ran if the push includes markdown files in the `/markdowns` directory.
 ##### `convert` workflow
